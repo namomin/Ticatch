@@ -1,0 +1,101 @@
+.main_body {
+  display: flex;
+  /* justify-content: center; */
+  padding-top: 70px;
+  padding-right: 20px;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  box-sizing: border-box; /* 전체 박스 모델 계산 */
+  background-color: white;
+}
+
+.stage_container {
+  display: flex;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  margin-bottom: 20px; /* 아래 공간 */
+}
+
+.stage_box {
+  width: 824px; /* 박스의 너비 */
+  height: 55px; /* 박스의 높이 */
+  background-color: rgb(95, 95, 95);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.info {
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.seat_groups {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-right: 40px;
+}
+
+.seat_container {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-gap: 8px;
+}
+
+.seat {
+  width: 33px;
+  height: 33px;
+  background-color: #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: white;
+}
+
+.available {
+  background-color: #5795bb;
+}
+
+.unavailable {
+  background-color: gray;
+  pointer-events: none;
+}
+
+.selected {
+  background-color: #023d62;
+}
+
+/* 줄 이름(알파벳) 스타일 */
+.row_label {
+  width: 30px; /* 알파벳의 고정 너비 */
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px; /* 좌석 번호와 간격 */
+}
+
+.seat_row {
+  display: flex; /* 줄(row)을 좌측 레이블과 좌석으로 정렬 */
+  align-items: center;
+  margin-bottom: 10px; /* 줄 간 간격 */
+}
+
+.seat-container {
+  display: flex; /* 좌석을 가로로 나열 */
+  gap: 5px;
+}

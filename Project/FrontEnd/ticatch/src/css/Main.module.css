@@ -1,0 +1,418 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #ffffff;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    all: unset;
+}
+
+.wrap {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.detail_header {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 40px;
+    padding: 20px 0;
+    display: flex;
+    margin: 0;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.detail_header_logo {
+    width: 180px;
+    margin-left: 103.625px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.header_logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+
+.header_logo_color {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+}
+
+.header_searchbar_containar {
+    margin: 0;
+}
+
+.header_searchbar {
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 1056px;
+    height: 18px;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.user_links {
+    display: flex;
+    align-items: center;
+    margin-right: 103.625px;
+}
+
+.user_links a:hover {
+    text-decoration: underline;
+}
+
+.Detail_wrap {
+    width: 72.92%; 
+    margin-top: 20px;
+    margin-bottom: 64px;
+    /* overflow: hidden; */
+}
+
+/* simple 상세정보 */
+.info_wrap {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.poster_container {
+    width: 405px;
+    height: 500px;
+    margin-right: 40px;
+    margin-left: 0;
+}
+
+.poster_box {
+    background-color: #004d7c;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.detailview_poster_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.simple_info_container {
+    width: 607px;
+    height: 500px;
+    margin: 0;
+}
+
+.simple_info_header{
+    text-align: left;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+}
+
+.perform_title{
+    margin-left: 0px;
+}
+
+.detailview_save_btn {
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 0px 7px;
+    letter-spacing: 1px;
+    color: #004d7c;
+    min-width: 70px;
+    height: 40px;
+    text-align: center;
+}
+
+.detailview_save_btn:hover {
+    border: 1px solid #397194;
+}
+
+.detailview_save_btn:active {
+    background-color: #f3f7fa;
+    color: #004d7c;
+}
+
+.perform_title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+}
+
+.info_title {
+    width: 70px;
+    margin-right: 10px;
+    color: #62676c;
+}
+
+.simple_info_ul {
+    display: flex;
+    flex-wrap: wrap; /* 줄바꿈 허용 */
+    gap: 20px; /* 요소 간 간격 */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 12px;
+    max-width: 607px;
+}
+
+.simple_info_li {
+    display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
+    width: calc(50% - 20px); /* 50% 너비 */
+    box-sizing: border-box;
+    gap: 10px; /* 내부 요소 간 간격 */
+}
+
+/* 순서 지정 */
+.simple_info_li:nth-child(1) { order: 1; }
+.simple_info_li:nth-child(2) { order: 2; }
+.simple_info_li:nth-child(3) { order: 3; }
+.simple_info_li:nth-child(4) { order: 4; }
+
+.info_title {
+    font-weight: bold;
+    flex-shrink: 0; /* 제목이 줄어들지 않도록 설정 */
+    height: 100%;   /* 맨 위에 딱 붙게 */
+}
+
+.simple_info_desc {
+    flex-grow: 1;   /* 설명 영역이 남는 공간을 채우도록 설정 */
+    height: 100%;   /* 맨 위에 딱 붙게 */
+}
+
+.desc_text_container{
+    width: 1000px;
+}
+
+.desc_wrap {
+    max-width: 1000px;
+    margin: 0;
+}
+
+/* 예매 정보 선택 */
+.product_wrap {
+    width: 100%;
+    border: 1px solid #878d95;
+    border-radius: 8px;
+    height: auto;
+    display: flex;
+}
+
+.product_date_container {
+    width: 40%;
+    text-align: center;
+    border-right: 1px solid #cccccc;
+    display: flex;
+    padding-top: 10px;
+}
+
+/* 회차선택 */
+.product_time_container {
+    width: 35%;
+    text-align: center;
+    border-right: 1px solid #cccccc;
+    display: flex;
+    padding-top: 10px;
+}
+
+.product_time_choice {
+    width: 60%;
+    margin: 0px;
+    padding-top: 15px;
+    padding-right: 24px;
+}
+
+.product_time_choice_btn {
+    width: 195px;
+    padding: 14px 21px 14px 18px;
+    border: 1px solid #dcdde1;
+    border-radius: 6px;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.product_time_choice_btn:hover {
+    border: 1px solid #b3c3ce;
+}
+
+.product_time_choice_btn:active {
+    border: 1px solid #397194;
+    color: #004d7c;
+}
+
+/* 선택됐을때 스타일 */
+.product_time_choice_btn_selected {
+    color: #004d7c;
+    font-weight: 600;
+    border: 1px solid #397194;
+    width: 195px;
+    padding: 14px 21px 14px 18px;
+    border-radius: 6px;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.product_time_choice_span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* 잔여좌석 count */
+.product_seat_container {
+    width: 25%;
+    text-align: center;
+    background-color: #e6f1f8;
+    display: flex;
+    padding-top: 10px;
+}
+
+.product_step {
+    padding: 15px 0px 15px 0px;
+}
+
+.product_step_text {
+    color: #004d7c;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 8px;
+    text-align: left;
+}
+
+.product_title {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.product_seat_remain {
+    width: 60%;
+}
+
+.product_seat_remain_ul {
+    margin-top: 18px;
+}
+
+.product_seat_remain_li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product_seat_grade {
+    color: #62676c;
+    margin-left: 0px;
+}
+
+.product_seat_grade--null {
+    text-align: left;
+}
+
+.product_seat_counttext {
+    margin-right: 15px;
+}
+
+/* 예매하기 버튼 */
+.resevation_wrap {
+    padding-top: 19px;
+    padding-bottom: 40px;
+    text-align: right;
+}
+
+.reseve_btn {
+    text-align: center;
+    background-color: #004d7c;
+    width: 228px;
+    height:28px;
+    padding: 17px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    border: 1px solid #004d7c;
+    border-radius: 8px;
+    letter-spacing: 2px;
+}
+.reseve_btn:hover {
+    background-color: #397194;
+    border: 1px solid #397194;
+}
+
+.reservation_link {
+    color: #ffffff;
+    text-decoration: none;
+}
+.reservation_link:hover {
+    color: #ffffff;
+}
+
+/* section tab */
+.section {
+}
+
+.section_tab_ul {
+    display: flex;
+    margin: 0px;
+   width: 100%;
+}
+
+.tab_btn {
+    text-align: center;
+    display: block;
+    position: relative;
+    min-width: 200px;
+    width: auto;
+    height: auto;
+    padding: 12px 70px 13px 70px;
+    border: 1px solid #ecedf2;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #62676c;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tab_btn:hover {
+    color: black;
+    font-weight: 600;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid white;
+    transition: letter-spacing 0.3s ease;
+    letter-spacing: 2px;
+}
+
+
+.section_content {
+    padding-top: 40px;
+    width: 100%;
+}
+
+/* Footer */
+.booking_footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-left: 0;
+    background-color: #222;
+    color: white;
+    width: 100%;
+    margin-right: 0;
+}

@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.review_list {
+    max-width: 1400px;
+}
+
+.review_list_wrap {
+    width: 1400px;
+    margin-top: 23px;
+}
+
+.review_list_item {
+    position: relative;
+    border-bottom: 1px solid #e8eaf1;
+    padding: 24px 5px 27px 0;
+}
+
+.review_item_star {
+    margin-bottom: 10px;
+    color: #004d7c;
+}
+
+.review_item_start_icon {
+    margin-right: 4px;
+}
+
+.review_item_content {
+    font-size: 15px;
+}
+
+.review_item_writer_info {
+    display: flex;
+    margin-top: 14px;
+}
+
+.review_writer_id {
+    display: inline;
+    font-size: 14px;
+    line-height: 22px;
+    color: #62676c;
+    margin: 0;
+}
+
+.review_item_create_date {
+    position: relative;
+    padding-left: 10px;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #62676c;
+    margin: 0;
+}
+
+.review_item_purchaser {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    padding: 2px 9px;
+    font-size: 13px;
+    color: #004d7c;
+    line-height: 17px;
+    border: 1px solid #004d7c;
+    border-radius: 16px;
+}
+
+.review_btn_wrap {
+    margin-right: 0;
+}
+
+.review_edit_btn {
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #bababa;
+    border-radius: 6px;
+    padding: 0px 12px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+.review_edit_btn:hover {
+    border: 1px solid rgb(205, 205, 205);
+    background-color: #f1f1f1;
+}
+
+.review_modifymode_wrap{
+    text-align: right;
+}
+
+.review_edit_submit_btn {
+    background-color: #004d7c;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #004d7c;
+    border-radius: 6px;
+    padding: 0px 12px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+.review_edit_submit_btn:hover {
+    background-color: #397194;
+}
+
+/* 리뷰 수정 textarea css */
+.review_item_content_edit {
+    font-family: "Notosans", -apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, "Malgun Gothic", Arial, sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: #cccccc;
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: 1px solid #f1f1f1;
+    border-radius: 6px;
+    padding: 10px 0 15px 10px;
+    caret-color: #049fff;   /* 작성할때 커서 위치 색상 */
+}

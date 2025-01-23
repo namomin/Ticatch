@@ -1,0 +1,77 @@
+.title {
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.order_title_genre {
+  font-size: 16px;
+  color: #62676c;
+  margin-bottom: 3px;
+}
+
+.order_title {
+  font-size: 24px;
+  color: #002136;
+}
+
+.reserve_button {
+  font-size: 17px;
+  background-color: #004d7c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.1s;
+  padding: 13px 6px 13px 6px;
+  display: flex; /* Flexbox 사용 */
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+  letter-spacing: 1.5px;
+  margin-top: 15px;
+}
+
+.reserve_button:hover {
+  background-color: #356786;
+}
+
+.order_reserve_content {
+  text-align: right;
+}
+
+.order_reserve_info {
+  margin-right: 0;
+}
+
+.order_reserve_title {
+  margin-left: 0;
+}
+
+.time_selector {
+  padding-top: 10px;
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+}
+
+.time_selector button {
+  font-size: 20px;
+}
+
+.time_selector button:hover:not(:disabled) {
+  cursor: pointer;
+  color: #003366;
+}
+
+.order_seat_price {
+  color: #62676c;
+}
+
+.order_time {
+  color: #245586 ;
+}
+
+.padding {
+  padding-top: 10px;
+}

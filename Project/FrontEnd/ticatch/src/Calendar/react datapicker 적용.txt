@@ -1,0 +1,10 @@
+<react-datepicker 최신버전 설치/ date-fns 2.x 버전 설치>
+// locale 한글 사용하려면 fns 2.x 버전 필요
+
+npm install react-datepicker@latest
+npm install date-fns@2.x
+
+============================================
+jsx 파일 경로 : component
+css 파일 경로 : css
+

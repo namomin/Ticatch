@@ -1,0 +1,230 @@
+.mypage_header {
+  background-color: #f8f8f8;
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.mypage_header h2 {
+  font-size: 2.8rem;
+  color: #333;
+}
+.mypage_logo {
+  width: 180px;
+  margin-left: 103.625px;
+  margin-top: 2px;
+  cursor: pointer;
+  
+}
+
+.mypage_logo h2{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* mypage main content wrap */
+.mypage_container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: "Arial", sans-serif;
+  box-sizing: border-box;
+}
+
+/* user information top */
+.mypage_main {
+  width: 100%;
+}
+
+.mypage_user_info {
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.user_infos {
+  display: flex;
+}
+
+.mypage_user_info_id {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.mypage_userId_color {
+  font-size: 24px;
+  font-weight: 600;
+  color: #004d7c;
+}
+
+.user_infos {
+
+}
+
+.nav_user_info_title {
+  font-size: 16px;
+  color: #90abba;
+  margin-left: 0;
+  margin-right: 60px;
+}
+
+.mypage_text {
+  margin: 0;
+  padding: 40px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.userId_text {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+/* 주문 내역 */
+.mypage_sections_wrap {
+ padding-bottom: 60px;
+ 
+}
+
+.mypage_section_container {
+  margin-bottom: 60px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.mypage_title {
+  padding: 20px 0;
+  margin-top: 20px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.user_info_modif_wrap {
+  display: flex;
+}
+
+.user_info_modif_title {
+  margin-left: 0;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.user_info_modify_title_ul li {
+  padding: 17px 0;
+  color: #888888;
+  font-weight: 600;
+  margin-bottom: 5px;
+  /* border-top: 1px solid #e4e4e4; */
+}
+
+.user_info_modif {
+  width: 40%;
+  text-align: left;
+  margin-left: 0;
+}
+
+/* 예매내역 출력 table */
+.reserve_table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.reserve_table_theader {
+  background-color: #004d7c;
+  color: #ffffff;
+}
+
+.reserve_table_theader td {
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 16px 0;
+}
+
+.reserve_table_content td {
+  background-color: #ffffff;
+  color: #6b6b6b;
+  padding: 20px 0;
+  overflow: hidden;
+  border-bottom: 1px solid #cfd0d7;
+}
+
+.reserve_seqpfjoinId {
+  cursor: pointer;
+}
+
+.reserve_seqpfjoinId:hover {
+  color: #85a0b1;
+}
+
+.input {
+  width: 70%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #e4e4e4;
+  margin-bottom: 13px;
+}
+
+.logout_btn {
+  margin-right: 103.625px;
+  padding-top: 5px;
+}
+
+.button {
+  margin-top: 20px; /* Add space above the button */
+  padding: 10px 20px;
+  background-color: #004d7c;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #7da5bd;
+}
+
+/* 찜 내역 */
+.mypage_save_container {
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;  /* 범위 넘어가면 다음줄에 출력 */
+  box-sizing: border-box;
+}
+
+.mypage_save_img {
+  width: 300px;
+  height: 400px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 50px 50px 0;
+}
+
+.mypage_save_img:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* footer */
+.mypage_footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  margin-top: auto; /* Pushes the footer to the bottom */
+  color: white;
+  width: 100%;
+}
+
+.mypage_develop_memo {
+  padding: 20px;
+}
+
+.mypage_develop_memo h2 {
+  margin-bottom: 5px;
+}

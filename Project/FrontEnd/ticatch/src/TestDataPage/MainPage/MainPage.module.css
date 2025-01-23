@@ -1,0 +1,228 @@
+/* Header Styling */
+.booking_header {
+  position: sticky; /* Keep header at the top when scrolling */
+  top: 0; /* Stick to the top of the page */
+  z-index: 1000; /* Ensure it stays above other elements */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+.search_bar {
+  /* flex-grow: 1; */
+  margin: 0 20px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 55%;
+}
+
+.user_links a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation Menu */
+.navigation_menu {
+  position: sticky; /* Keep navigation at the top when scrolling */
+  top: 80px; /* Adjust according to header height */
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  gap: 20px;
+  z-index: 1;
+  width: 100%;
+  letter-spacing: 1.2px;
+}
+
+.navigation_menu span {
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 80px;
+}
+
+.navigation_menu span:hover,
+.navigation_menu .active {
+  color: #007bff;
+}
+
+/* title style */
+.nav_title_containar {
+  padding-top: 60px;
+  margin-left: 0;
+}
+
+.nav_title_text {
+  font-size: 30px;
+}
+
+/* 랭킹 이미지 숫자 나오는거 */
+.rank {
+  position: absolute;
+  bottom: 0; /* Align at the bottom of the image */
+  left: 15px; /* Align at the left edge */
+  font-size: 5rem; /* Adjust font size for visibility */
+  font-weight: bold;
+  color: white; /* White text for better contrast */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1); /* Add shadow for better contrast */
+}
+
+.image_container {
+  position: relative;
+}
+
+/* Main Content */
+.main_content {
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  height: auto;
+}
+
+.main_content.no-slider {
+  margin-top: 50px; /* Reduced margin when slider is not visible */
+  padding-top: 0px;
+}
+
+.main_content.no-padding {
+  padding-top: 50px; /* 기존 패딩 값 설정 */
+}
+
+/* Auto Slider */
+.auto_slider {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slider_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Concert List */
+/* 기존 css */
+/* .concert_container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.concert_slider {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+} */
+
+
+.image_container {
+  flex: 0 0 calc(25% - 16px); /* 기본적으로 25%의 크기 */
+  box-sizing: border-box; /* 패딩과 테두리 포함 크기 계산 */
+  min-width: 300px; /* 최소 크기 지정 */
+}
+
+
+.concert_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+  justify-content: flex-start;
+}
+
+
+.concert_slider {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 16px; 
+  justify-content: flex-start; 
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+
+.image_container:hover {
+  cursor: pointer;
+  /* transform: scale(1.1); 보류 */
+}
+
+.concert_card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+}
+
+.concert_card:hover {
+  cursor: pointer;
+  width: 302px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  /* transition: 0.1s ease-in; */
+}
+
+.concert_image {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.prd_list_content {
+  margin-top: 16px;
+}
+
+.prd_title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #686868;
+  margin-right: 5px;
+}
+
+.prd_title_item {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+
+.item_title {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.item_genre {
+  font-size: 15px;
+  color: #686868;
+}
+
+.item_date {
+  font-size: 15px;
+  font-weight: 600;
+  color: #7f7f7f;
+}
+
+/* Footer */
+.booking_footer {
+  text-align: center;
+  padding: 40px 0px;
+  background-color: #222;
+  margin-top: 120px; /* Pushes the footer to the bottom */
+  color: white;
+  width: 100%;
+}

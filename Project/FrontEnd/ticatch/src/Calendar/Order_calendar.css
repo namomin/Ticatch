@@ -1,0 +1,136 @@
+/* 중간 정렬 */
+.calendar_main {
+  display: flex;
+  align-items: center;
+}
+
+/* 달력 전체 배경 */
+.react_datepicker {
+  background-color: #ffffff;
+  border: none;
+  box-shadow: none !important;
+}
+
+/* 달력 헤더 스타일 변경 */
+.react-datepicker__header {
+  background-color: #ffffff;
+}
+
+/* renderCustomHeader 속성 스타일 설정 */
+.custom_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+  padding-bottom: 12px;
+  background-color: #ffffff;
+}
+
+.custom_header_span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.custom_header_button:nth-child(1) {
+  background: none;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+.custom_header_button:nth-child(3) {
+  background: none;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.custom_header button:hover {
+  color: #004d7c;
+}
+
+/* 오늘 이전 날짜 비활성화 및 색상 회색(#cccccc)으로 변경 */
+.react-datepicker__day--disabled {
+  color: #cccccc !important;
+  pointer-events: none; /* 클릭 비활성화 */
+  background-color: transparent !important; /* 배경색 변경 없음 */
+}
+
+/* 오늘 이전 날짜의 토요일과 일요일 색상 회색 처리 */
+.react-datepicker__day--disabled.react-datepicker__day--sunday {
+  color: #cccccc !important;
+}
+
+.react-datepicker__day--disabled.react-datepicker__day--saturday {
+  color: #cccccc !important;
+}
+
+/* 요일 헤더 스타일링 */
+.react-datepicker__day-names {
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* 요일 텍스트 커스터마이징 */
+.react-datepicker__day-name {
+  padding: 0px 5px 0px 5px;
+}
+
+.react-datepicker__day-name:nth-child(1) {
+  color: #df4c4ceb;
+}
+
+.react-datepicker__day-name:nth-child(7) {
+  color: #4852ed;
+}
+
+/* 토,일 day 숫자 색상 변경 */
+.react-datepicker__day--weekend {
+  color: #df4c4ceb;
+}
+
+.react-datepicker__day--weekend:nth-child(7) {
+  color: #4852ed;
+}
+
+/* 토, 일 day 숫자 선택됐을때 색상 설정 */
+.react-datepicker__day--selected:nth-child(1) {
+  color: #ffffff;
+}
+.react-datepicker__day--selected:nth-child(7) {
+  color: #ffffff;
+}
+
+/* 날짜에 커서 올렸을때 border-radius 적용 */
+/* 선택된 날짜 스타일 */
+.react-datepicker__day--selected {
+  border-radius: 50%;
+}
+
+/* 일반 날짜에 커서를 올렸을 때의 스타일 */
+.react-datepicker__day:hover {
+  border-radius: 50% !important;
+}
+
+/* 선택된 날짜에 커서를 올렸을 때의 스타일 */
+.react-datepicker__day--selected:hover {
+  border-radius: 50% !important;
+}
+
+/* 요일 밑에 border 속성 없애기 */
+.react-datepicker__header {
+  border-bottom: none !important; /* 헤더 전체의 하단 경계선 제거 */
+}
+.react-datepicker__day-name {
+  border-bottom: none !important; /* 요일 셀의 하단 경계선 제거 */
+}
+
+/* dd(숫자) 스타일 */
+.react-datepicker__day {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px;
+}
