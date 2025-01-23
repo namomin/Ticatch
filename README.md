@@ -3,8 +3,8 @@
 `BackEnd/FrontEnd` 폴더 : 작업한 부분만 정리해 놓은 폴더.
 `Project` 폴더 : 프로젝트 전체 폴더.
 
-[FrontEnd code 보기](#4.-기능)
-[BackEnd code 보기](#backend-code)
+- [FrontEnd code 보기](#4-기능) </br>
+- [BackEnd code 보기](#backend-code)
 
 </br>
 
