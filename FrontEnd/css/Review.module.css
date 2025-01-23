@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+ul {
+    overflow: visible !important;
+    font-weight: 500;
+}
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.review_wrap {
+    width: 1400px;
+}
+
+.review_header {
+    width: 100%;
+    padding-bottom: 12px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #242428;
+    display: flex;
+}
+
+.review_header_title {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 34px;
+    margin-left: 0px;
+}
+
+.review_header_count {
+    margin-left: 8px;
+    color: #004d7c;
+}
+
+.review_header_rate {
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.rate_star {
+    color: #004d7c;
+    padding-bottom: 4px;
+}
+
+.review_header_rate_score {
+    display: flex;
+}
+
+.rate_score_avg {
+    margin-left: 7px;
+    color: #004d7c;
+}
+
+.review_notice {
+    width: 100%;
+    height: auto;
+    margin: 32px 0 12px;
+    align-items: center;
+}
+
+.review_comment_wrap {
+    width: 100%;
+    border: 1px solid #e8eaf1;
+    border-radius: 10px;
+}
+
+.comment_container {
+    padding-top: 15px;
+}
+
+.comment_star_rate {
+    font-weight: 500;
+    padding: 0 20px;
+    margin-bottom: 18px;
+    display: flex;
+}
+
+.commnet_star_rate_choice {
+    margin: 0px 3px 0px 0px;
+}
+
+.commnet_rate_choice {
+    display: flex;
+    line-height: 15px;
+}
+
+.comment_star_choice_icon {
+    font-size: 20px;
+    margin: 0px 2px 0px 0px;
+    color: #004d7c;
+}
+
+/* 비활성화된 별 */
+.comment_star_choice_icon {
+    display: inline-block;
+    font-size: 21px;
+    color: #ddd; 
+    cursor: pointer;
+    transition: color 0.1s ease-in-out;
+}
+
+/* 활성화된 별 */
+.filled {
+    color: #004d7c; 
+}
+
+
+.comment_rate_text {
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.comment_textarea {
+    font-family: "Notosans", -apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, "Malgun Gothic", Arial, sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: #cccccc;
+    width: 100%;
+    padding: 0 30px 0 20px;
+    height: 84px;
+    line-height: 22px;
+    font-size: 15px;
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+    border: none;
+    caret-color: #049fff;   /* 작성할때 커서 위치 색상 */
+}
+
+.comment_submitbtn_container {
+    border-top: 1px solid #e8eaf1;
+    text-align: right;
+    align-items: center;
+    display: flex;
+}
+
+.comment_text_count {
+    font-size: 15px;
+    margin-right: 12px;
+}
+
+.commentMaxLength_span {
+    color: #62676c;
+}
+
+.comment_submit_btn {
+    margin: 11px 19px 11px 0;
+    padding: 2px 24px;
+    height: 36px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #ffffff;
+    background-color: #004d7c;
+    border-radius: 8px;
+}
+
+.comment_submit_btn:hover {
+    background-color: #397194;
+    border-radius: 8px
+}

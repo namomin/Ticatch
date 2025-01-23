@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.desc_text_container {
+    width: 100%;
+    height: auto;
+}
+
+.desc_content_submit {
+    font-size: 20px;
+}
+
+.desc_text {
+    font-size: 15px;
+    font-weight: 600;
+    color: #5a5a5a;
+}
+
+.desc_img_container {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.desc_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
