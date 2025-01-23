@@ -3,8 +3,8 @@
 `BackEnd/FrontEnd` 폴더 : 작업한 부분만 정리해 놓은 폴더.
 `Project` 폴더 : 프로젝트 전체 폴더.
 
-[FrontEnd code 보기](#상세-페이지)
-[BackEnd code 보기](#code)
+[FrontEnd code 보기](#-상세-페이지)
+[BackEnd code 보기](#-backend-code)
 
 </br>
 
@@ -59,15 +59,12 @@
 
 ## :pushpin: 5. Back-end 전체 흐름
 ![흐름](https://github.com/user-attachments/assets/1623c5d5-3554-43d2-96e2-2d4f10f69f49)
-## Code
-- #### `Controller`
- :pushpin: [Controller 코드로 이동](https://github.com/namomin/Ticatch/blob/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/controller/DetailController.java)
 
- - #### `Service`
- :pushpin: [Service 폴더로 이동](https://github.com/namomin/Ticatch/tree/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/service)
+## :pushpin: BackEnd Code
+- #### `Controller`(https://github.com/namomin/Ticatch/blob/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/controller/DetailController.java)
 
- - #### `Repository`
- :pushpin: [Repository 폴더로 이동](https://github.com/namomin/Ticatch/tree/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/Repository)
+ - #### `Service`(https://github.com/namomin/Ticatch/tree/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/service)
+
+ - #### `Repository`(https://github.com/namomin/Ticatch/tree/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/Repository)
 
  </br>
-
