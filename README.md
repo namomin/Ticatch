@@ -34,12 +34,12 @@
 #### 로그인 페이지
 - 로그인/로그아웃/회원가입
 
-#### 상세 페이지
-- 공연 정보 조회
-- 찜하기
-- 날짜/회차 선택 및 잔여 좌석 조회
-- 리뷰/기대평 작성, 수정, 삭제
-- 네이버 지도에 공연장 위치 핑 띄우기
+#### 상세 페이지(FrontEnd code로 이동)
+- [공연 정보 조회](https://github.com/namomin/Ticatch/blob/main/FrontEnd/Perform_Info/Info.jsx)
+- [찜하기](https://github.com/namomin/Ticatch/blob/main/FrontEnd/Save/SaveBtn.jsx)
+- [날짜/회차 선택 및 잔여 좌석 조회](https://github.com/namomin/Ticatch/tree/main/FrontEnd/Reserve)
+- [리뷰/기대평 작성, 수정, 삭제](https://github.com/namomin/Ticatch/tree/main/FrontEnd/Review%20Expectation)
+- [네이버 지도에 공연장 위치 핑 띄우기](https://github.com/namomin/Ticatch/tree/main/FrontEnd/Map)
 
 
 #### 예매
