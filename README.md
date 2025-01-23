@@ -1,6 +1,8 @@
 # :pushpin: Ticatch
 '티케치' 공연 정보 조회 및 예매 사이트
 
+</br>
+
 ## 1. 제작 기간 & 참여 인원
 - 2024.11.04 ~ 2024.12.23
 - 2인
@@ -8,7 +10,7 @@
 </br>
 
 ## 2. 사용 기술
-#### 'Back-end'
+#### `Back-end`
 - Java 17
 - Spring Boot (3.3.5)
 - Gradle
@@ -16,13 +18,15 @@
 - JPQL
 - Oracle DB
 
-#### 'Front-end'
+#### `Front-end`
 - React
  
 </br>
 
 ## 3. ERD 설계
 ![ERD](https://github.com/user-attachments/assets/255b9f9c-c2a8-4eaa-8a7c-d4e0371b0566)
+
+</br>
 
 ## 4. 기능
 #### 로그인 페이지
@@ -46,21 +50,18 @@
 - 예매내역 조회
 - 찜내역 조회
 
-
+</br>
 
 ## 5. 전체 흐름
-User <-> React <-> Controller <-> Service <-> Repository <-> DB 
+![흐름](https://github.com/user-attachments/assets/1623c5d5-3554-43d2-96e2-2d4f10f69f49)
 
-## 5-1. 사용자 요청
+- ### `Controller`
+ :pushpin: [Controller 코드로 이동](https://github.com/namomin/Ticatch/blob/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/controller/DetailController.java)
 
+ - ### `Service`
+ :pushpin: [Service 폴더로 이동](https://github.com/namomin/Ticatch/tree/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/service)
 
-## 5-2. Controller
-[:pushpin: Controller 코드로 이동](https://github.com/namomin/Ticatch/blob/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/controller/DetailController.java)
+ - ### `Repository`
+ :pushpin: [Repository 폴더로 이동](https://github.com/namomin/Ticatch/tree/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/Repository)
 
-## 5-3. Service
-[:pushpin: Service 폴더로 이동](https://github.com/namomin/Ticatch/tree/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/service)
-
-## 5-4. Repository
-[:pushpin: Repository 폴더로 이동](https://github.com/namomin/Ticatch/tree/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/Repository)
-
-
+</br>
