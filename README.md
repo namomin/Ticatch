@@ -11,15 +11,15 @@
 
 ## 2. 사용 기술
 #### `Back-end`
-- Java 17
+- Java 17 
 - Spring Boot (3.3.5)
-- Gradle
 - JPA
 - JPQL
 - Oracle DB
 
 #### `Front-end`
 - React
+- - HTML / CSS3 / JS
  
 </br>
 
@@ -63,5 +63,3 @@
 
  - ### `Repository`
  :pushpin: [Repository 폴더로 이동](https://github.com/namomin/Ticatch/tree/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/Repository)
-
-</br>
