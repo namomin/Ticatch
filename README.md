@@ -1,6 +1,6 @@
 # :pushpin: Ticatch
 #### '티케치' 공연 정보 조회 및 예매 사이트. </br></br>
-`BackEnd/FrontEnd` 폴더 : 작업한 부분만 정리해 놓은 폴더. </br>
+`BackEnd/FrontEnd` 폴더 : 담당한 기능을 정리해 놓은 폴더. </br>
 `Project` 폴더 : 프로젝트 전체 폴더.
 
 - [FrontEnd code 보기](#4-기능) </br>
