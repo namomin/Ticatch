@@ -19,7 +19,7 @@
 
 #### `Front-end`
 - React
-- - HTML / CSS3 / JS
+- HTML / CSS3 / JS
  
 </br>
 
