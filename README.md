@@ -3,8 +3,8 @@
 `BackEnd/FrontEnd` 폴더 : 담당한 기능을 정리해 놓은 폴더. </br>
 `Project` 폴더 : 프로젝트 전체 폴더.
 
-- [FrontEnd code 보기](#4-기능) </br>
-- [BackEnd code 보기](#backend-code)
+✔️ [FrontEnd code 보기](#4-기능) </br>
+✔️ [BackEnd code 보기](#backend-code)
 
 </br>
 
@@ -60,7 +60,7 @@
 ## 5. Back-end 흐름
 ![흐름](https://github.com/user-attachments/assets/1623c5d5-3554-43d2-96e2-2d4f10f69f49)
 
-## BackEnd Code
+## :pushpin: BackEnd Code
 - #### [Controller 코드](https://github.com/namomin/Ticatch/blob/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/controller/DetailController.java)
 - #### [Service 폴더](https://github.com/namomin/Ticatch/tree/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/service)
 - #### [Repository 폴더](https://github.com/namomin/Ticatch/tree/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/Repository)
