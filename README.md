@@ -1,5 +1,7 @@
 # :pushpin: Ticatch
 '티케치' 공연 정보 조회 및 예매 사이트
+### Project 폴더 : 프로젝트 전체 코드.
+### BackEnd/FrontEnd 폴더 : 작업한 부분만 정리해 놓은 폴더.
 
 </br>
 
@@ -52,7 +54,7 @@
 
 </br>
 
-## 5. 전체 흐름
+## 5. Back-end 전체 흐름
 ![흐름](https://github.com/user-attachments/assets/1623c5d5-3554-43d2-96e2-2d4f10f69f49)
 
 - ### `Controller`
@@ -63,3 +65,6 @@
 
  - ### `Repository`
  :pushpin: [Repository 폴더로 이동](https://github.com/namomin/Ticatch/tree/main/Project/BackEnd/ticatch/src/main/java/com/danaojo/ticatch/detail/Repository)
+
+ </br>
+
