@@ -1,7 +1,8 @@
 # :pushpin: Ticatch
-'티케치' 공연 정보 조회 및 예매 사이트
+'티케치' 공연 정보 조회 및 예매 사이트.
 #### `BackEnd/FrontEnd` 폴더 : 작업한 부분만 정리해 놓은 폴더.
 #### `Project` 폴더 : 프로젝트 전체 폴더.
+* 하단에 각 기능별 코드로 이동하는 링크 있음.
 
 </br>
 
@@ -34,7 +35,7 @@
 #### 로그인 페이지
 - 로그인/로그아웃/회원가입
 
-#### 상세 페이지(FrontEnd code로 이동)
+#### :pushpin: 상세 페이지(FrontEnd code로 이동)
 - [공연 정보 조회](https://github.com/namomin/Ticatch/blob/main/FrontEnd/Perform_Info/Info.jsx)
 - [찜하기](https://github.com/namomin/Ticatch/blob/main/FrontEnd/Save/SaveBtn.jsx)
 - [날짜/회차 선택 및 잔여 좌석 조회](https://github.com/namomin/Ticatch/tree/main/FrontEnd/Reserve)
@@ -54,7 +55,7 @@
 
 </br>
 
-## 5. Back-end 전체 흐름
+## :pushpin: 5. Back-end 전체 흐름
 ![흐름](https://github.com/user-attachments/assets/1623c5d5-3554-43d2-96e2-2d4f10f69f49)
 
 - ### `Controller`
